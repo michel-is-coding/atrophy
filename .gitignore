@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.DS_Store
+# data never lives in the repo (it lives in ~/.atrophy/), but guard anyway:
+atrophy.md
+*.log
+atrophy-projects.tsv
+ratings.log
+presence.log
+.playwright-cli/

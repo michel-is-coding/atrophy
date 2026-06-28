@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>io.atrophy.watch</string>
+  <key>ProgramArguments</key>
+  <array><string>/bin/bash</string><string>@ATROPHY_DIR@/bin/atrophy-watch.sh</string></array>
+  <key>StartInterval</key><integer>3600</integer>
+  <key>RunAtLoad</key><true/>
+  <key>EnvironmentVariables</key><dict><key>ATROPHY_HOME</key><string>@HOME@/.atrophy</string></dict>
+  <key>StandardErrorPath</key><string>@HOME@/.atrophy/watch-cron.log</string>
+</dict>
+</plist>
